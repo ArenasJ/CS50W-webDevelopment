@@ -1,0 +1,75 @@
+body{
+    background-color: #fff;
+
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    float: right;
+    width: 100%;
+}
+
+li{
+    display: block;
+    float: right;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+form{
+    text-align: center;
+
+}
+
+#textBox{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 50%;
+    height: 30px;
+    border-radius: 30px;
+    border-color: #f8f9fa;
+    border-style: solid;
+}
+
+.buttonSection{
+    display: inline;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+
+}
+
+.submitB{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    font-color: black;
+    background-color: #f8f9fa;
+    border-color: white;
+    border-style: solid;
+
+}
+
+.submitB:hover{
+    border-color: #f8f9fa;
+    border-style: solid;
+    box-shadow: 0px 0px 7px 0px rgba(32,33,36,.28);
+}
+
+#textBox:hover{
+    border-color: #f8f9fa;
+    border-style: solid;
+    box-shadow: 0px 0px 7px 0px rgba(32,33,36,.28);
+}
+
+#googleLogo{
+
+    position: absolute;
+    top:25%;
+    left: 25%;
+    width: 50%;
+}
+
